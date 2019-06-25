@@ -8,9 +8,38 @@ h2 {
     font-variant: small-caps
 }
 
-p.comments {
+blockquote {
+    text-overflow: clip;
     background-color: rgb(255, 255, 168);
     /* font-family: 'Courier New', Courier, monospace; */
     color: black;
+    margin-left: 5ch;
     font-style: italic
+}
+
+body {
+    color: #404040;
+    font-size: 11pt;
+    font-family: Georgia, Garamond, serif
+}
+
+a {
+    color: #A4A400;
+}
+
+p.cr {
+    text-align: right;
+    display: block;
+    font-family: monospace;
+}
+
+span.cr {}
+
+.divcr {
+    float: left;
+}
+
+.divValid {
+    display: block;
+    float: left;
 }
