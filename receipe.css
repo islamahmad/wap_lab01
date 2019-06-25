@@ -1,0 +1,16 @@
+#pie {
+    width: 150px;
+}
+
+h2 {
+    background-color: gainsboro;
+    color: rgba(164, 171, 46, 1);
+    font-variant: small-caps
+}
+
+p.comments {
+    background-color: rgb(255, 255, 168);
+    /* font-family: 'Courier New', Courier, monospace; */
+    color: black;
+    font-style: italic
+}
