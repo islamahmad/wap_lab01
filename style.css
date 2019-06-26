@@ -27,3 +27,7 @@ ul {
 li {
     color: purple
 }
+footer{
+    clear: both;
+    text-align: center
+}

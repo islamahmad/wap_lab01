@@ -2,10 +2,19 @@
     width: 150px;
 }
 
+body {
+    background: url("silverware.jpg");
+}
+
 h2 {
     background-color: gainsboro;
     color: rgba(164, 171, 46, 1);
-    font-variant: small-caps
+    font-variant: small-caps;
+    /* background-size: 0% */
+}
+
+ul li {
+    list-style-image: url("pie_bullet.png");
 }
 
 blockquote {
@@ -42,4 +51,16 @@ span.cr {}
 .divValid {
     display: block;
     float: left;
+}
+
+#links {
+    display: inline;
+}
+
+.bottomlinks {
+    display: block;
+}
+
+.newLine {
+    display: block;
 }
