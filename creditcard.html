@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="form.css">
+    <title>Credit Card Application</title>
+</head>
+
+<body>
+    <header>
+        <li><a href="../index.html"> Home Page</a></li>
+        <li><a href="../aboutme.html">About me</a></li>
+        <li><a href="../receipe.html">Receipe</a></li>
+        <li><a href="../journal.html">Journal</a></li>
+        <li><a href="../tmnt.html">Movie Review</a></li>
+        <li><a>Credit Card Application</a></li>
+    </header>
+    <form action="." method="dialog">
+        <div>
+            <span class="dateEntry">
+                <label> First Name
+                    <input type="text" name="fname" pattern="^[a-z]+" placeholder="first name" maxlength="50">
+                </label>
+            </span><br>
+            <span class="dateEntry">
+                <label> Last Name
+                    <input type="text" name="lname" pattern="^[a-z]+" placeholder="last name" maxlength="50">
+                </label>
+            </span><br>
+            <span class="dateEntry">
+                <label> Email
+                    <input type="text" name="Email" pattern="^[a-zA-Z0-9_\-]+@[a-zA-Z0-9_\-]+.[a-zA-Z]{2,4}$" maxlength="60" placeholder="email@domain.com">
+                </label>
+            </span><br>
+            <span class="dateEntry">
+                <label> SSN
+                    <input type="tel" name="ssn" pattern="^\d{3}-\d{3}-\d{4}$" maxlength="12" size="12" placeholder="123-456-7890">
+                </label>
+            </span><br>
+            <span class="dateEntry">
+                    <label> Date Of Birth
+                        <input type="date" name="dob" >
+                    </label>
+                </span><br>
+            <span class="dateEntry">
+                        <label> Mother's Maiden Name
+                            <input type="text" name="mmn" pattern="^[a-z]+[a-z]$" placeholder="mother's maiden name">
+                        </label>
+                    </span><br>
+
+            <div id="employementDiv">
+                <label> Employment Status
+                    <select name="employment" id="employmentSelect" required>
+                        <option value="self">Self Employed</option>
+                        <option value="unemployeed">Unemployeed</option>
+                        <option value="full">Full Time</option>
+                        <option value="part">Part time</option>
+                    </select>
+               </label>
+            </div>
+            <div id="otherBanksDiv">
+                <label> Do you have Other Bank accounts
+                    <select name="otherBanks" id="bankSelect" required>
+                        <option value="boa">Bank Of America</option>
+                        <option value="hsbc">HSBC</option>
+                        <option value="other">Other</option>
+                    </select>
+                </label>
+            </div>
+            <div id="howDidYouHear">
+                <label> How Did you hear about this card
+                    <select name="howYouHearAboutCard" id="howDidYouHearSelect" required>
+                        <option value="friend">A friend</option>
+                        <option value="ad">An Ad</option>
+                        <option value="other">Other</option>
+                    </select>
+               </label>
+            </div>
+            <div>
+                <input type="submit" value="Submit" name="Submit">
+                <input type="reset" value="Reset" name="Reset">
+            </div>
+        </div>
+    </form>
+    <br>
+    <footer>
+        <a href="https://validator.w3.org/check/referer">
+            <img src="../movie/w3c-html.png" alt="html validator" />
+        </a>
+        <a href="https://jigsaw.w3.org/css-validator/check/referer">
+            <img src="../movie/w3c-css.png" alt="Valid CSS!" />
+        </a>
+    </footer>
+</body>
+
+</html>
