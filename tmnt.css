@@ -1,0 +1,123 @@
+* {
+    color: black;
+    font-family: Tahoma, Verdana, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    font-size: 24pt;
+    font-weight: bold;
+    font-family: Tahoma, Verdana, sans-serif;
+    text-shadow: 3px 3px #999999;
+}
+
+body {
+    background-image: url("background.png");
+    margin: 0px;
+    padding: 0px;
+}
+
+#root {
+    border: 4px solid grey;
+    margin: 0 auto;
+    width: 800px;
+    align-content: center;
+}
+
+#rightSide {
+    float: right;
+    width: 250px;
+}
+
+#leftSide {
+    width: 550px;
+}
+
+#grade {
+    color: red;
+    display: block;
+    font-size: 48pt;
+    font-weight: bold;
+    width: 100%;
+    background-image: url("rbg.png");
+}
+
+#bannerImg {
+    margin: 0px;
+    padding: 0px;
+    background-image: url("bannerbg.png");
+}
+
+#banPic {
+    display: block;
+    margin: 0 auto;
+}
+
+.flexContainer {
+    display: flex;
+}
+
+#credit {
+    background-color: rgb(161, 185, 99);
+    /* padding-left: 20px; */
+    /* padding-right: 20px; */
+    padding-bottom: 10px;
+    padding-top: 20px;
+    font-weight: normal;
+}
+
+.commentDiv {
+    border: 2px grey solid;
+    border-radius: 15px;
+    background-color: rgb(227, 223, 151);
+    margin-top: 20px;
+    font-size: 8pt;
+    display: inline-block;
+    width: 47%;
+    margin-left: 2%;
+}
+
+.commentDiv>p>img {
+    float: left;
+}
+
+#allComments {
+    margin: 10px;
+    width: 550px;
+    /* height: 907px; */
+}
+
+#credit dd+dt {
+    font-weight: bold;
+}
+
+#credit>dt {
+    font-weight: bold;
+}
+
+#validators {
+    position: sticky;
+    display: block;
+    offset: body;
+    z-index: auto;
+    float: right;
+    box-sizing: content-box;
+}
+
+#valid {
+    position: absolute;
+    float: none;
+    display: inline;
+    box-sizing: content-box;
+}
+
+#foot {
+    background-color: #A2B964;
+    padding: 5px;
+    margin-bottom: 0px;
+    text-align: center;
+    border-bottom-left-radius: 13px;
+    /* position: absolute; */
+    bottom: 0px;
+    width: inherit;
+}
