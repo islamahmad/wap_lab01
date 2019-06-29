@@ -66,24 +66,29 @@ body {
     font-weight: normal;
 }
 
+.review{
+    display: inline-grid;
+}
 .commentDiv {
     border: 2px grey solid;
     border-radius: 15px;
     background-color: rgb(227, 223, 151);
-    margin-top: 20px;
+    margin-top: 10px;
     font-size: 8pt;
-    display: inline-block;
+    display: inline-grid; 
     width: 47%;
     margin-left: 2%;
 }
 
 .commentDiv>p>img {
+    
     float: left;
 }
 
 #allComments {
     margin: 10px;
     width: 550px;
+    display: inline-grid; 
     /* height: 907px; */
 }
 
